@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    box-sizing: border-box;
+}
+
+.maCard{
+    margin: 10rem auto;
+    padding: 1rem;
+    min-height: 20rem;
+    width: 27rem;
+    border: 2px solid black;
+    border-radius: 2rem;
+    text-align: center;
+}
+
+.maCard p{
+    font-size: 1.6rem;
+    line-height: 2.3rem;
+}
+
+.card-illustration{
+    height: 20rem;
+    width: 65%;
+    background: rgb(146, 8, 8);
+    margin: 1rem auto;
+}
+
+.card-btn{
+    
+    padding: .3rem 1rem;
+    border: none;
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    border-radius: 20px;
+    background: orangered;
+    color: white;
+    cursor: pointer;
+}
+
+.card-btn:hover{
+    background: rgb(245, 87, 30);
+}
+
+.card-btn:focus{
+    outline: none;
+}
