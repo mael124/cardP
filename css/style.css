@@ -13,6 +13,8 @@ body{
     box-sizing: border-box;
 }
 
+/* ******************* cardP1 ************* */
+
 .maCard{
     margin: 10rem auto;
     padding: 1rem;
@@ -53,4 +55,67 @@ body{
 
 .card-btn:focus{
     outline: none;
+}
+
+/* ************** cardP2 *********** */
+
+.cardP2{
+    margin: 10rem auto;
+    padding: 1rem;
+    min-height: 20rem;
+    width: 35rem;
+    border: 2px solid black;
+    border-radius: 2rem;
+    /* text-align: center; */
+}
+
+.cardP2-item{
+    display: flex;
+}
+
+
+.cardP2-item_image{
+    flex: 1;
+    height: 10rem;
+    background: black;
+}
+
+.bg1{
+    background: black;
+    margin-right: 1rem;
+}
+
+.bg2{
+    background: chocolate;
+}
+
+.cardP2-desc{
+    text-align: center;
+    width: 90%;
+    margin: 1rem auto;
+}
+
+.cardP2-desc h4{
+    font-size: 1.6rem;
+    font-weight: bold;
+    margin-bottom: 3rem;
+    margin-top: 2rem;
+}
+
+.cardP2-desc p{
+    font-size: 1.6rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+
+.cardP2-btn{
+    padding: .3rem 1rem;
+    border: none;
+    font-size: 1.6rem;
+    width: 15rem;
+    font-weight: bold;
+    border-radius: 20px;
+    background: orangered;
+    color: white;
+    cursor: pointer;
 }
